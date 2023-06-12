@@ -3,5 +3,10 @@
     "parserOptions": {
         "ecmaVersion": "latest"
     },
-    "rules": {}
+    "globals": {
+        "document": "writable"
+    },
+    "rules": {
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    }
 }
